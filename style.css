@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  /* verify what these do below prior to finishing 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+}
+
+.img {
+  border-radius: 50%;
+  border: 4px solid white;
+  width: 200px;
+  height: 100%; 
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.home-section {
+  text-align: center;
+  font-size: 40px;
+  padding: 10px 10px;
+  width: 100%;
+  color: white;
+}
+
+.home-section > p {
+  font-size: 25px;
+  font-style: italic;
+  margin-top: -25px;
+}
+
+.nav {
+  overflow: hidden;
+  position: fixed; /* set navbar to a fixed position */
+  top: 0;
+  width: 100%;
+  text-align: center;
+  transition: top 0.3s;
+}
+
+.nav a {
+  float: none;
+  display: inline-block;
+  padding: 25px 50px; 
+  font-size: 25px;
+  text-decoration: none !important;
+  color: white;
+}
+
+.nav a:hover {
+  border-bottom: 1.5px solid white;
+}
+
+.about-me-section-header {
+  text-align: center;
+  font-size: 25px;
+}
+
+.about-me-section {
+  min-height: 150px;
+  width:100%;
+  background-color: pink;
+  font-size: 16px;
+}
+
+.about-me-section > p {
+font-size: 16px;
+
+}
+
+.portfolio-section-header{
+  text-align: center;
+  font-size: 25px;
+}
+
+.portfolio-section {
+background-color: tomato;
+}
+
+/* rocket ship on left side of page - past line of code below in html document
+<img class="rocket launch" src="https://cdn4.iconfinder.com/data/icons/whsr-january-flaticon-set/512/rocket.png">
+.rocket {
+  position: absolute;
+  bottom: -600px;
+  left: -5%;
+  animation: fly 10s .5s ease-in;
+  size: 5px;
+}
+
+@keyframes fly {
+  0% {
+      bottom: -1000px;
+  }
+
+  100% {
+      bottom: 100%;
+  }
+}
+*/ 
+
+.contact-section {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fa {
+  padding: 25px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 15px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+}
+
+#author-text {
+  text-align: center;
+}
