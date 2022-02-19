@@ -15,13 +15,13 @@ body {
 
 .img {
   border-radius: 50%;
-  border: 5px solid white;
-  width: 20rem;
+  border: 3px solid white;
+  width: 200px;
   height: 100%; 
-  display: block;
+  display: inline-block;
   margin-right: auto;
   margin-left: auto;
-  margin-top: -180px;
+  margin-top: -125px;
 }
 
 .home-section {
@@ -155,38 +155,40 @@ border: 2px solid yellow;
 /* rocket ship on left side of page */
 .rocket1 {
   position: absolute;
-  bottom: -98.4rem;
+  bottom: -99.2rem;
   right: -3.5rem;
-  animation: fly 8s .5s ease-in;
+  animation: fly 10s .5s ease-in;
   size: 5px;
 }
 
 @keyframes fly {
   0% {
-    bottom: -98.4rem;
+    bottom: -99.2rem;
   }
 
   100% {
     bottom: 700%;
   }
 }
+
 .rocket2 {
   position: absolute;
-  bottom: -98.4rem;
-  left: -3rem;
-  animation: fly 4s .5s ease-in;
+  bottom: -99.2rem;
+  left: -2.5rem;
+  animation: fly 2s .5s ease-in;
   size: 5px;
 }
 
 @keyframes fly {
   0% {
-    bottom: -98.4rem;
+    bottom: -99.2rem;
   }
 
   100% {
     bottom: 700%;
   }
 }
+
 /*.contact-section-header {
   text-decoration: solid green underline;
 }*/
