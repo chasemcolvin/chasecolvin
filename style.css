@@ -16,12 +16,12 @@ body {
 .img {
   border-radius: 50%;
   border: 5px solid white;
-  width: 220px;
+  width: 20rem;
   height: 100%; 
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-top: -150px;
+  margin-top: -180px;
 }
 
 .home-section {
@@ -30,7 +30,7 @@ body {
   padding: 15px 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -25rem;
+  margin-top: -30rem;
   width: 100%;
   color: white;
 }
@@ -40,10 +40,10 @@ body {
   font-style: italic;
   margin-top: -30px;
 }
-
+/*
 .nav {
   overflow: hidden;
-  position: fixed; /* set navbar to a fixed position */
+  position: fixed; 
   top: 0;
   width: 100%;
   text-align: center;
@@ -53,7 +53,7 @@ body {
 .nav a {
   float: none;
   display: inline-block;
-  padding: 15px 30px; 
+  padding: 15px 15px; 
   font-size: 25px;
   text-decoration: none !important;
   color: white;
@@ -61,6 +61,43 @@ body {
 
 .nav a:hover {
   border-bottom: 1.5px solid white;
+}
+*/
+
+.nav a{
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  left: -100px;
+  transition: 0.5s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.nav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: white;
+}
+
+#about {
+  top: 80px;
+  background-color: white;
+}
+
+#portfolio {
+  top: 140px;
+  background-color: white;
+}
+
+#contact {
+  top: 200px;
+  background-color: white;
 }
 
 .about-me-section-header {
@@ -84,9 +121,9 @@ body {
   color: white;
   padding: 0rem 25rem;
   margin-top: 10rem;
-  margin-bottom: -25px;
+  margin-bottom: -20px;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
 }
 
 .about-me-section > p {
@@ -95,8 +132,8 @@ body {
 }
 
 .portfolio-section-header {
-text-align: center;
-font-size: 20px;
+  text-align: center;
+  font-size: 20px;
 }
 
 /*
@@ -112,28 +149,44 @@ border: 2px solid yellow;
   /*margin-top: 15px;*/
   font-size: 16px;
   margin-bottom:-20px;
-  text-align: center;
+  text-align: left;
 }
 
 /* rocket ship on left side of page */
-.rocket {
+.rocket1 {
   position: absolute;
-  bottom: -125.3rem;
-  left: -4rem;
-  animation: fly 10s .5s ease-in;
+  bottom: -98.4rem;
+  right: -3.5rem;
+  animation: fly 8s .5s ease-in;
   size: 5px;
 }
 
 @keyframes fly {
   0% {
-    bottom: -125.3rem;
+    bottom: -98.4rem;
   }
 
   100% {
     bottom: 700%;
   }
 }
+.rocket2 {
+  position: absolute;
+  bottom: -98.4rem;
+  left: -3rem;
+  animation: fly 4s .5s ease-in;
+  size: 5px;
+}
 
+@keyframes fly {
+  0% {
+    bottom: -98.4rem;
+  }
+
+  100% {
+    bottom: 700%;
+  }
+}
 /*.contact-section-header {
   text-decoration: solid green underline;
 }*/
@@ -204,6 +257,7 @@ border: 2px solid yellow;
   text-align: center;
 }
 
+/*
 @media screen and (max-width: 768px) {
   #title {
     font-size:20pt;
@@ -217,3 +271,4 @@ p{
     font-size:15pt;
   }
 }
+*/
